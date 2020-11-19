@@ -2,36 +2,18 @@ import './styles/main.css';
 
 function App() {
   return (
-    <div className="App">
-      <div className="md:flex">
-        <div className="md:flex-shrink-0">
-          <img
-            className="rounded-lg md:w-56"
-            src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=448&q=80"
-            width="448"
-            height="299"
-            alt="Woman paying for a purchase"
-          />
-        </div>
-        <div className="mt-4 md:mt-0 md:ml-6">
-          <div className="uppercase tracking-wide text-sm text-indigo-600 font-bold">
-            Marketing
-          </div>
-          <a
-            href="#"
-            className="block mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline"
-          >
-            Finding customers for your new business
-          </a>
-          <p className="mt-2 text-gray-600">
-            Getting a new business off the ground is a lot of hard work. Here
-            are five ideas you can use to find your first customers.
-          </p>
-        </div>
+    <div className="p-6 max-w-sm max-w-md max-w-lg mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
+      <div className="flex-shrink-0">
+        <img
+          className="h-12 w-12"
+          src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=448&q=80"
+          alt="ChitChat Logo"
+        />
       </div>
-      <button className="bg-transparent hover:bg-blue-500 text-blue-700 hover:text-white">
-        Hover me
-      </button>
+      <div>
+        <div className="text-xl font-medium text-black">ChitChat</div>
+        <p className="text-gray-500">You have a new message!</p>
+      </div>
     </div>
   );
 }

@@ -8,11 +8,11 @@ import {
 
 import './styles/main.css';
 
-import MainNavigation from './components/MainNavigation';
-import LoginPage from './pages/LogIn';
-import SignUpPage from './pages/SignUp';
-import EventsPage from './pages/Events';
-import BookingsPage from './pages/Bookings';
+import MainNavigation from './components/Navigation/MainNavigation';
+import LoginPage from './pages/LogIn/LogIn';
+import SignUpPage from './pages/SignUp/SignUp';
+import EventsPage from './pages/Events/Events';
+import BookingsPage from './pages/Bookings/Bookings';
 
 const App = () => {
   return (
@@ -22,7 +22,7 @@ const App = () => {
         <main>
           <Switch>
             <Route path="/login" component={LoginPage} exact />
-            <Route path="/signup" component={SignUp} exact />
+            <Route path="/signup" component={SignUpPage} exact />
             <Route path="/events" component={EventsPage} exact />
             <Route path="/bookings" component={BookingsPage} exact />
             <Redirect path="/" to="/events" exact />

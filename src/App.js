@@ -19,7 +19,15 @@ const App = () => {
     <Router>
       <React.Fragment>
         <MainNavigation />
-        <main></main>
+        <main>
+          <Switch>
+            <Route path="/login" component={LoginPage} exact />
+            <Route path="/signup" component={SignUp} exact />
+            <Route path="/events" component={EventsPage} exact />
+            <Route path="/bookings" component={BookingsPage} exact />
+            <Redirect path="/" to="/events" exact />
+          </Switch>
+        </main>
       </React.Fragment>
     </Router>
   );

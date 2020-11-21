@@ -6,7 +6,7 @@ import {
   Switch,
 } from 'react-router-dom';
 
-import './styles/main.css';
+import './styles/tailwind.css';
 
 import MainNavigation from './components/Navigation/MainNavigation';
 import LoginPage from './pages/LogIn/LogIn';

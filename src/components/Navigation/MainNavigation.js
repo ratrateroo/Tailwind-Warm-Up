@@ -1,5 +1,8 @@
 import React from 'react';
-import '../../styles/tailwind.css';
+//import '../../styles/tailwind.css';
+
+import { NavLink } from 'react-router-dom';
+
 const MainNavigation = () => {
   return (
     <header>
@@ -8,10 +11,10 @@ const MainNavigation = () => {
   <div className="max-w-7xl mx-auto px-4 sm:px-6">
     <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
       <div className="flex justify-start lg:w-0 lg:flex-1">
-        <a href="/events">
+        <NavLink to="/events">
           <span className="sr-only">Events</span>
           <img className="h-10 w-auto sm:h-10" src="Logo.svg" alt="Logo"/>
-        </a>
+        </NavLink>
       </div>
       <div className="-mr-2 -my-2 md:hidden">
         <button type="button" className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -25,22 +28,22 @@ const MainNavigation = () => {
       <nav className="hidden md:flex space-x-10">
         
 
-        <a href="/events" className="text-base font-medium text-gray-500 hover:text-gray-900">
+        <NavLink to="/events" className="text-base font-medium text-green-500 hover:text-gray-900">
           Events
-        </a>
-        <a href="/bookings" className="text-base font-medium text-gray-500 hover:text-gray-900">
+        </NavLink>
+        <NavLink to="/bookings" className="text-base font-medium text-green-500 hover:text-gray-900">
           Bookings
-        </a>
+        </NavLink>
 
         
       </nav>
       <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-        <a href="/signup" className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">
+        <NavLink to="/signup" className="whitespace-nowrap text-base font-medium text-green-500 hover:text-gray-900">
           Sign Up
-        </a>
-        <a href="/login" className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
+        </NavLink>
+        <NavLink to="/login" className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-green-600 hover:bg-green-700">
           Log In
-        </a>
+        </NavLink>
       </div>
     </div>
   </div>
@@ -67,22 +70,22 @@ const MainNavigation = () => {
       </div>
       <div className="py-6 px-5 space-y-6">
         <div className="grid grid-cols-2 gap-y-4 gap-x-8">
-          <a href="/events" className="text-base font-medium text-gray-900 hover:text-gray-700">
+          <NavLink to="/events" className="text-base font-medium text-gray-900 hover:text-gray-700">
             Events
-          </a>
+          </NavLink>
 
-          <a href="/bookings" className="text-base font-medium text-gray-900 hover:text-gray-700">
+          <NavLink to="/bookings" className="text-base font-medium text-gray-900 hover:text-gray-700">
             Bookings
-          </a>     
+          </NavLink>     
 
         </div>
         <div>
-          <a href="/signup" className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
+          <NavLink to="/signup" className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-emerald-600 hover:bg-emerald-700">
             Sign Up
-          </a>
-          <a href="/login" className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
+          </NavLink>
+          <NavLink to="/login" className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-emerald-600 hover:bg-emerald-700">
             Log In
-          </a>
+          </NavLink>
          
         </div>
       </div>

@@ -5,8 +5,8 @@ import { NavLink } from 'react-router-dom';
 const MainNavigation = () => {
   return (
     <header className="">
-      <div class="container mx-auto bg-yellow-700 lg:w-auto">
-      <nav className="flex flex-row-reverse space-x-4 space-x-reverse items-center">
+      <div class="container mx-auto bg-gray-900 bg-opacity-100  lg:w-auto">
+      <nav className="flex flex-row-reverse space-x-10 space-x-reverse items-center">
         <div>
           
         <NavLink to="/events" className="bg-black-700 text-white">
@@ -21,6 +21,9 @@ const MainNavigation = () => {
         <NavLink to="/bookings" className="bg-black-700 text-white">
           Bookings
         </NavLink>
+        <div className="md:bg-black-700 text-white">
+          TEXT
+        </div>
         </div>
         <div>
 

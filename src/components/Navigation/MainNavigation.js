@@ -9,8 +9,8 @@ const MainNavigation = () => {
       <nav className="h-10  w-full flex justify-between bg-yellow-500 sm:bg-red-500 md:bg-green-500 lg:bg-blue-500 xl:bg-pink-500 2xl:bg-indigo-500">
         <div className="w-max  flex justify-center items-center mx-1 bg-gray-500">
           
-        <NavLink to="/events" className="mx-5 bg-gray-700 text-white">
-          Logo
+        <NavLink to="/events" className="mx-5 bg-gray-700">
+         LOGO
         </NavLink>
         </div>
         <div className="w-full flex justify-start items-center mx-1 bg-gray-500">
@@ -21,7 +21,6 @@ const MainNavigation = () => {
         <NavLink to="/bookings" className="mx-5 bg-gray-700 text-white">
           Bookings
         </NavLink>
-        
         </div>
         <div className="w-full flex justify-end items-center mx-1 bg-gray-500">
 

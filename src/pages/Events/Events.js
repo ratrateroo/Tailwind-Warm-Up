@@ -15,17 +15,17 @@ const EventsPage = () => {
 							</div>
 							<div className="py-2 flex justify-between">
 								<div>
-									<p className="text-xl font-bold text-yellow-600 sm:text-red-600 md:text-green-600 lg:text-blue-600 xl:text-pink-600 2xl:text-indigo-600">
+									<p className="text-sm md:text-lg font-bold text-yellow-600 sm:text-red-600 md:text-green-600 lg:text-blue-600 xl:text-pink-600 2xl:text-indigo-600">
 										&#8369; 1000.00
 									</p>
 								</div>
 								<div>
-									<p className="text-xl mx-5 font-bold text-yellow-600 sm:text-red-600 md:text-green-600 lg:text-blue-600 xl:text-pink-600 2xl:text-indigo-600">
+									<p className="text-sm md:text-lg mx-5 font-bold text-yellow-600 sm:text-red-600 md:text-green-600 lg:text-blue-600 xl:text-pink-600 2xl:text-indigo-600">
 										-
 									</p>
 								</div>
 								<div>
-									<p className="text-xl font-bold text-yellow-600 sm:text-red-600 md:text-green-600 lg:text-blue-600 xl:text-pink-600 2xl:text-indigo-600">
+									<p className="text-sm md:text-lg font-bold text-yellow-600 sm:text-red-600 md:text-green-600 lg:text-blue-600 xl:text-pink-600 2xl:text-indigo-600">
 										January 1, 2021
 									</p>
 								</div>
@@ -46,17 +46,17 @@ const EventsPage = () => {
 							</div>
 							<div className="py-2 flex justify-between">
 								<div>
-									<p className="text-xl font-bold text-yellow-600 sm:text-red-600 md:text-green-600 lg:text-blue-600 xl:text-pink-600 2xl:text-indigo-600">
+									<p className="text-sm md:text-lg font-bold text-yellow-600 sm:text-red-600 md:text-green-600 lg:text-blue-600 xl:text-pink-600 2xl:text-indigo-600">
 										&#8369; 1000.00
 									</p>
 								</div>
 								<div>
-									<p className="text-xl mx-5 font-bold text-yellow-600 sm:text-red-600 md:text-green-600 lg:text-blue-600 xl:text-pink-600 2xl:text-indigo-600">
+									<p className="text-sm md:text-lg mx-5 font-bold text-yellow-600 sm:text-red-600 md:text-green-600 lg:text-blue-600 xl:text-pink-600 2xl:text-indigo-600">
 										-
 									</p>
 								</div>
 								<div>
-									<p className="text-xl font-bold text-yellow-600 sm:text-red-600 md:text-green-600 lg:text-blue-600 xl:text-pink-600 2xl:text-indigo-600">
+									<p className="text-sm md:text-lg font-bold text-yellow-600 sm:text-red-600 md:text-green-600 lg:text-blue-600 xl:text-pink-600 2xl:text-indigo-600">
 										January 1, 2021
 									</p>
 								</div>

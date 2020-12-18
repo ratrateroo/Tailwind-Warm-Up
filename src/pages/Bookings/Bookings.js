@@ -22,11 +22,11 @@ const BookingsPage = () => {
 							</div>
 						</div>
 						<div class="h-full flex items-center">
-							<button className="p-3 rounded text-white font-bold bg-yellow-500 sm:bg-red-500 md:bg-green-500 lg:bg-blue-500 xl:bg-pink-500 2xl:bg-indigo-500">
+							<button className="p-3 mx-3 rounded text-white font-bold bg-yellow-500 sm:bg-red-500 md:bg-green-500 lg:bg-blue-500 xl:bg-pink-500 2xl:bg-indigo-500">
 								View Details
 							</button>
 
-							<button className="p-3 rounded text-white font-bold bg-yellow-500 sm:bg-red-500 md:bg-green-500 lg:bg-blue-500 xl:bg-pink-500 2xl:bg-indigo-500">
+							<button className="p-3 mx-3 rounded text-white font-bold bg-yellow-500 sm:bg-red-500 md:bg-green-500 lg:bg-blue-500 xl:bg-pink-500 2xl:bg-indigo-500">
 								Cancel Bookings
 							</button>
 						</div>
@@ -47,12 +47,11 @@ const BookingsPage = () => {
 							</div>
 						</div>
 						<div class="h-full flex items-center">
-							<button className="p-3 rounded text-white font-bold bg-yellow-500 sm:bg-red-500 md:bg-green-500 lg:bg-blue-500 xl:bg-pink-500 2xl:bg-indigo-500">
+							<button className="p-3 mx-3 rounded text-white font-bold bg-yellow-500 sm:bg-red-500 md:bg-green-500 lg:bg-blue-500 xl:bg-pink-500 2xl:bg-indigo-500">
 								View Details
 							</button>
-						</div>
-						<div class="h-full flex items-center">
-							<button className="p-3 rounded text-white font-bold bg-yellow-500 sm:bg-red-500 md:bg-green-500 lg:bg-blue-500 xl:bg-pink-500 2xl:bg-indigo-500">
+
+							<button className="p-3 mx-3 rounded text-white font-bold bg-yellow-500 sm:bg-red-500 md:bg-green-500 lg:bg-blue-500 xl:bg-pink-500 2xl:bg-indigo-500">
 								Cancel Bookings
 							</button>
 						</div>

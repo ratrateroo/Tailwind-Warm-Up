@@ -3,7 +3,7 @@ import React from 'react';
 const BookingsPage = () => {
 	return (
 		<div>
-			<h1 className="p-5 text-2xl font-bold text-black">Bookings Page</h1>
+			<h1 className="p-5 text-2xl font-bold text-black">Bookings</h1>
 			<div className="h-screen w-full flex justify-center bg-yellow-300 sm:bg-red-300 md:bg-green-300 lg:bg-blue-300 xl:bg-pink-300 2xl:bg-indigo-300">
 				<div className="w-full p-10  flex flex-col justify-start bg-gray-100">
 					<div className="w-3/4 mx-auto my-5 p-5 flex justify-between rounded-lg bg-yellow-100 sm:bg-red-100 md:bg-green-100 lg:bg-blue-100 xl:bg-pink-100 2xl:bg-indigo-100">

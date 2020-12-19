@@ -3,7 +3,7 @@ import React from 'react';
 const SignUpPage = () => {
 	return (
 		<div>
-			<h1 className="p-5 text-2xl font-bold text-black">Sign Up</h1>
+			{/* <h1 className="p-5 text-2xl font-bold text-black">Sign Up</h1> */}
 			<div className="h-screen w-full flex justify-center bg-yellow-300 sm:bg-red-300 md:bg-green-300 lg:bg-blue-300 xl:bg-pink-300 2xl:bg-indigo-300">
 				<div className="w-full p-10 bg-gray-100">
 					<div className=" w-full md:w-4/6 xl:w-1/3 h-1/2 mx-auto flex justify-center items-center">

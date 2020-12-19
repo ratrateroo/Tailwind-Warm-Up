@@ -5,7 +5,7 @@ const SignUpPage = () => {
 		<div>
 			{/* <h1 className="p-5 text-2xl font-bold text-black">Sign Up</h1> */}
 			<div className="h-screen w-full flex justify-center bg-yellow-300 sm:bg-red-300 md:bg-green-300 lg:bg-blue-300 xl:bg-pink-300 2xl:bg-indigo-300">
-				<div className="w-full p-10 bg-gray-100">
+				<div className="w-full h-full flex items-center p-10 bg-gray-100">
 					<div className=" w-full md:w-4/6 xl:w-1/3 h-1/2 mx-auto flex justify-center items-center">
 						<div className="w-full p-8 flex flex-col justify-center items-center rounded-lg border-2 border-yellow-900 sm:border-red-900 md:border-green-900 lg:border-blue-900 xl:border-pink-900 2xl:border-indigo-900 bg-yellow-100 sm:bg-red-100 md:bg-green-100 lg:bg-blue-100 xl:bg-pink-100 2xl:bg-indigo-100">
 							<h2 class="text-2xl font-bold text-yellow-900 sm:text-red-900 md:text-green-900 lg:text-blue-900 xl:text-pink-900 2xl:text-indigo-900">
